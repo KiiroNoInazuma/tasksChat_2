@@ -7,7 +7,7 @@ public class Exercise_2 {
         int[] add = new int[arr.length];
         System.out.println(Arrays.toString(arr));
         for (int i = 0; i < arr.length; i++) {
-            add[4 - i] = arr[i];
+            add[arr.length - i - 1] = arr[i];
         }
         arr = add;
         System.out.println(Arrays.toString(arr));
